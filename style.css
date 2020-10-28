@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+@media (min-width: 900px) {
+    .container {
+      width: 800px;
+    }
+    .subhead-narrow {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+      width: 800px;
+    }
+    #alex-thinks {
+        display: flex;
+    }
+    .subhead-narrow {
+        display: none;
+    }
+}
+
+@media (max-width: 740px) {
+    .container {
+      width: 500px;
+    }
+    #alex-thinks {
+        display: none;
+    }
+    .subhead-narrow {
+        display: block;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+    #alex-thinks {
+        display: none;
+    }
+    .subhead-narrow {
+        display: block;
+    }
+}
+
+body {
+    background-color: #F2F7F2;
+    font-family: 'Bitter', serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+#intro img {
+    border-radius: 100px;
+    margin: auto;
+}
+
+#alex-thinks {
+    left: 40px;
+    top: 20px;
+}
+
+.subhead-narrow {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin: 20px 0;
+    background-color: #F7B801;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 4px 8px 6px #46636220;
+}
+
+ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-stacked {
+    line-height: 1.6;
+}
+
+.list-stacked a {
+    color: #466362;
+    font-size: larger;
+}
+
+.list-stacked a:hover {
+    color: #000000;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.list-inline a {
+    color: #466362;
+    font-size: x-large;
+}
+
+.list-inline a:hover {
+    color: #000000;
+}
