@@ -4,20 +4,11 @@
     .container {
       width: 800px;
     }
-    .subhead-narrow {
-        display: none;
-    }
 }
 
 @media (max-width: 900px) {
     .container {
       width: 800px;
-    }
-    #alex-thinks {
-        display: flex;
-    }
-    .subhead-narrow {
-        display: none;
     }
 }
 
@@ -28,9 +19,6 @@
     #alex-thinks {
         display: none;
     }
-    .subhead-narrow {
-        display: block;
-    }
 }
 
 @media (max-width: 540px) {
@@ -39,9 +27,6 @@
     }
     #alex-thinks {
         display: none;
-    }
-    .subhead-narrow {
-        display: block;
     }
 }
 
@@ -66,11 +51,6 @@ p {
 #alex-thinks {
     left: 40px;
     top: 20px;
-}
-
-.subhead-narrow {
-    font-size: larger;
-    margin-bottom: 10px;
 }
 
 .card {
